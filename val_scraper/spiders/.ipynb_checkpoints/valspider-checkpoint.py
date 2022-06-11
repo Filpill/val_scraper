@@ -35,6 +35,23 @@ class PlayerState(scrapy.Spider):
         yield {
                'matches':data['matches']
         }
+        # for item in data:
+        #     matches = item['matches']
+
+
+        
+#         data = json.loads(response.css('script::text').extract()[-1])
+#         item_list = data['itemListElement']
+#         for item in item_list:
+#             yield {item}
+        
+        
+        
+        
+        
+        
+        
+        
         
 #        data = json.loads(response.body)        
 #        matches = data['data']['matches']
